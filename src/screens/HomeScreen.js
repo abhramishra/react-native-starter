@@ -32,6 +32,11 @@ const HomeScreen = (props) => {
         onPress={()=>props.navigation.navigate("Square")}
         title="Go to Square screen"
       />
+      <Text style={styles.text}>Example using Reducer</Text>
+      <Button
+        onPress={()=>props.navigation.navigate("ModifySquare")}
+        title="Go to square screen-reducer"
+      />
     </View>
   )
 };
