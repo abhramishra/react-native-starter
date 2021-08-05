@@ -6,9 +6,9 @@ const ImageScreen = () => {
     return (
         <View>
             <Text style={styles.textStyle}>Image Screen</Text>
-            <ImageDetails title="Forest" imageSource={ require('../../assets/forest.jpg') } />
-            <ImageDetails title="Beach" imageSource={ require('../../assets/beach.jpg') } />
-            <ImageDetails title="Mountainm" imageSource={ require('../../assets/mountain.jpg')} />
+            <ImageDetails title="Forest" desc="Image Score - 9" imageSource={ require('../../assets/forest.jpg') } />
+            <ImageDetails title="Beach" desc="Image Score - 8" imageSource={ require('../../assets/beach.jpg') } />
+            <ImageDetails title="Mountainm" desc="Image Score - 10" imageSource={ require('../../assets/mountain.jpg')} />
         </View>
     )
 }
