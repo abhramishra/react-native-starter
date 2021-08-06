@@ -41,6 +41,11 @@ const HomeScreen = (props) => {
         onPress={()=>props.navigation.navigate("ModifyCounter")}
         title="Go to Counter Screen - Reducer"
       />
+      <Text style={styles.text}>Example for Text Input</Text>
+      <Button
+        onPress={()=>props.navigation.navigate("Text")}
+        title="Go to Input Text"
+      />
     </View>
   )
 };
